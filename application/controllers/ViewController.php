@@ -46,6 +46,27 @@ class ViewController extends CI_Controller {
 		$this->load->view('inc/footer');
 	}
 
+	public function testinomial()
+	{
+		$this->load->view('inc/header');
+		$this->load->view('testinomial');
+		$this->load->view('inc/footer');
+	}
+
+	public function news()
+	{
+		$this->load->view('inc/header');
+		$this->load->view('news');
+		$this->load->view('inc/footer');
+	}
+
+	public function downloads()
+	{
+		$this->load->view('inc/header');
+		$this->load->view('downloads');
+		$this->load->view('inc/footer');
+	}
+
 	public function catelog_elite_villa()
 	{
 		$this->load->view('inc/header');

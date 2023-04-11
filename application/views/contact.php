@@ -7,41 +7,55 @@
 </section>
 
 <section>
-	<div class="container">
-		<div class="row">
+	<div class="container" style="box-shadow: 0px 0px 10px 1px #5c5656;">
+		<div class="row" style="background-color: #3a4bac; color: white; padding: 30px">
 			<div class="col-md-4">
-				
+				<div class="row">
+					<div class="col-3 col-md-2">
+						<img src="<?php echo base_url() ?>assets/images/icons/phone.png" />
+					</div>
+					<div class="col-9 col-md-10">
+						<h6 class="text-light" style="font-weight: 700;">PHONE</h6>
+						<a class="text-light" style="text-decoration: none;" href="tel:+916289346024">+91 6289346024</a><br>
+						<a class="text-light" style="text-decoration: none;" href="tel:+918777617069">+91 8777617069 </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-3 col-md-2">
+						<img src="<?php echo base_url() ?>assets/images/icons/location.png" />
+					</div>
+					<div class="col-9 col-md-10">
+						<h6 class="text-light" style="font-weight: 700;">ADDRESS</h6>
+						<p class="text-light">
+							BLOOMSBURY INFRASTRUCTURE PRIVATE LIMITED.<br>
+							Hatishala, Off- 6Lane<br>
+							P.S. KLC, Kolkata-700 135, W.B.<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-3 col-md-2">
+						<img src="<?php echo base_url() ?>assets/images/icons/email.png" />
+					</div>
+					<div class="col-9 col-md-10">
+						<h6 class="text-light" style="font-weight: 700;">EMAIL</h6>
+						<p class="text-light">
+							<a class="text-light" style="text-decoration: none;" href="mailto:info@inhouseprojects.in">info@bloomsburyinfra.in</a>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container">
-		<div class="form-title clearfix">
-			<div class="form-title-list wc-phone">
-				<i class="fa fa-phone" aria-hidden="true" style="font-weight: bold;"></i>
-				<div class="title-content">
-					<strong>PHONE</strong>
 
-					<a href="tel:+916289346024">+91 6289346024</a><br>
-					<a href="tel:+918777617069">+91 8777617069 </a>
-				</div>
-			</div>
-			<div class="form-title-list wc-address">
-				<i class="fa fa-map-marker" aria-hidden="true"></i>
-				<div class="title-content">
-					<strong>ADDRESS</strong>
-					<p>BLOOMSBURY INFRASTRUCTURE PRIVATE LIMITED.</p>
-					<p>Hatishala, Off- 6Lane</p>
-					<p>P.S. KLC, Kolkata-700 135, W.B.</p>
-					<a href="https://www.google.co.in/maps/place/Bloomsbury+Infrastructure+Pvt.+Ltd./@22.5784808,88.4791975,17z/data=!3m1!4b1!4m5!3m4!1s0x3a02751255555555:0xfba8433085c6c9f1!8m2!3d22.5784504!4d88.4813732?hl=en"
-						target="_blank">View On Google Map</a>
-				</div>
-			</div>
-			<div class="form-title-list wc-mail">
-				<i class="fa fa-envelope" aria-hidden="true"></i>
-				<div class="title-content">
-					<strong>EMAIl</strong>
-					<a href="mailto:info@inhouseprojects.in">info@bloomsburyinfra.in</a>
-				</div>
+		<div class="row" style="padding: 30px">
+			<div class="col-md-12">
+				<h4 class="text-center">GET IN <strong>TOUCH</strong></h4>
+          		<span class="line"></span>
+          		<?php $this->load->view('inc/form'); ?>
 			</div>
 		</div>
 	</div>

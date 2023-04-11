@@ -1,5 +1,5 @@
 <!-- Banner -->
-<section id="banner_clider" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-hover="false">
+<section id="banner_clider" style="margin-top: 70px;" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-hover="false">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -78,7 +78,7 @@
 
 <!-- Start Our Project -->
 <section class="convicity-container-2">
-  <div class="container">
+  <div class="container d-none d-md-block">
     <h3 class="text-center">OUR <strong>PROJECT</strong></h3>
 
     <div class="row justify-content-center mt-5">
@@ -158,6 +158,92 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="container d-block d-md-none">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+                  <div class="card card-body m-0 p-0 project-catelog">
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+          <div class="project-catelog-title-container">
+            <h5>ELITE VILLA</h5>
+          </div>
+          <div class="project-catelog-description-container">
+            <h5>Land 3 Katha onwards</h5>
+            <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision for covered car parking, landscape garden, etc.</p>
+          </div>
+          <hr>
+          <div class="project-catelog-details d-flex">
+            <div class="col-4 text-center">
+              <i class="fa fa-bookmark" aria-hidden="true"></i>  2212 sq ft
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bed" aria-hidden="true"></i>  3 Bedrooms
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bath"></i>  3 Baths
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="card card-body m-0 p-0 project-catelog">
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+          <div class="project-catelog-title-container">
+            <h5>ELITE VILLA</h5>
+          </div>
+          <div class="project-catelog-description-container">
+            <h5>Land 3 Katha onwards</h5>
+            <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision for covered car parking, landscape garden, etc.</p>
+          </div>
+          <hr>
+          <div class="project-catelog-details d-flex">
+            <div class="col-4 text-center">
+              <i class="fa fa-bookmark" aria-hidden="true"></i>  2212 sq ft
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bed" aria-hidden="true"></i>  3 Bedrooms
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bath"></i>  3 Baths
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+                  <div class="card card-body m-0 p-0 project-catelog">
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+          <div class="project-catelog-title-container">
+            <h5>ELITE VILLA</h5>
+          </div>
+          <div class="project-catelog-description-container">
+            <h5>Land 3 Katha onwards</h5>
+            <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision for covered car parking, landscape garden, etc.</p>
+          </div>
+          <hr>
+          <div class="project-catelog-details d-flex">
+            <div class="col-4 text-center">
+              <i class="fa fa-bookmark" aria-hidden="true"></i>  2212 sq ft
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bed" aria-hidden="true"></i>  3 Bedrooms
+            </div>
+            <div class="col-4 text-center">
+              <i class="fa fa-bath"></i>  3 Baths
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="padding: 24px; background-color: black;"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="padding: 24px; background-color: black;"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
   </div>
 </section>
 <!-- End Our Project -->

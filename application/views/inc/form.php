@@ -29,6 +29,6 @@
         <textarea type="text" class="form-control" name="name" rows="3" required></textarea>
     </div>
     <div class="form-group" style="text-align: center;">
-       <button class="btn btn-danger btn-lg convicity-background-color convicity-button" type="submit">Submit</button>
+       <button class="btn btn-danger btn-lg convicity-background-color convicity-button" type="submit">SEND</button>
     </div>
 </form>

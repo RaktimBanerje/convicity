@@ -58,6 +58,9 @@ $route['/']["GET"] = "ViewController/index";
 $route['corporate']["GET"] = "ViewController/corporate";
 $route['careers']["GET"] = "ViewController/careers";
 $route['contact']["GET"] = "ViewController/contact";
+$route['testinomial']["GET"] = "ViewController/testinomial";
+$route['news']["GET"] = "ViewController/news";
+$route['downloads']["GET"] = "ViewController/downloads";
 
 $route['project/catalog/elite-villa']["GET"] = "ViewController/catelog_elite_villa";
 $route['project/catalog/apartment']["GET"] = "ViewController/catelog_apartment";
