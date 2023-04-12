@@ -46,6 +46,7 @@
 			</div>
 		</div>
 	</div>
+	<?php $this->load->view('inc/modal.php') ?>
 	<script src="<?php echo base_url() ?>assets/js/script.js"></script>
 	<script src="<?php echo base_url() ?>assets/js/owl.js"></script>
 	<script src="<?php echo base_url() ?>assets/lightbox/dist/js/lightbox.js"></script>

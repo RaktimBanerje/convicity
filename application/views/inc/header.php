@@ -71,7 +71,8 @@
             <a class="nav-link" style="color: black;" href="<?php echo base_url() ?>contact">Contact Us</a>
           </li>
         </ul>
-        <button class="btn btn-danger convicity-button" type="button">ENQUIRY NOW</button>
+        <!-- Button trigger modal -->
+        <button class="btn btn-danger convicity-button" data-bs-toggle="modal" data-bs-target="#leadmodal" type="button">ENQUIRY NOW</button>
       </div>
     </div>
   </nav>

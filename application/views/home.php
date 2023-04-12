@@ -258,6 +258,21 @@
 </section>
 <!-- End Who We Are -->
 
+<!-- Start Testinomial and Events -->
+<section class="convicity-container-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>TESTINOMIALS</h4>
+      </div>
+      <div class="col-md-6">
+        <h4>NEWS & EVENTS</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Testinomial and Events -->
+
 <!-- Start Convicity Video -->
 <section class="convicity-container-1">
   <div class="container">
