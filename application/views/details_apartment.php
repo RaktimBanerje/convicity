@@ -10,7 +10,7 @@
 <section class="convicity" style="padding: 10px">
 	<div class="container">
 		<div class="row px-md-5">
-			<div class="col-9 col-md-10">
+			<div class="col-12">
 				<div class="row project_details_header_container">
 					<div class="col-6">
 						<h4 class="text-light">3 Katha Villa Elite</h4>
@@ -31,7 +31,6 @@
 						src="<?php echo base_url() ?>assets/images/project/elite_villa/3k/1_main.jpg" />
 				</div>
 			</div>
-			<div class="col-3 col-md-2"></div>
 		</div>
 
 		<div class="row mt-5 px-md-5">

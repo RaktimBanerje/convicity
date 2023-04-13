@@ -46,6 +46,23 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="d-none d-md-block">
+		<a target="_blank" href="https://api.whatsapp.com/send?phone=9830082872" class="whatsapp-button"><i
+        	class="fab fa-whatsapp"></i></a>
+        <a target="_blank" href="tel:+919830082872" class="call-button"><i class="fa fa-phone"></i></a>
+        <a target="_blank" class="enquiry-button" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"><i class="fa fa-question"></i></a>
+    </div>
+
+	<nav class="navbar navbar-expand fixed-bottom d-flex d-md-none justify-content-center p-0" style="background-color: white !important;">
+		<a target="_blank" href="https://api.whatsapp.com/send?phone=9830082872" class="whatsapp-mobile-button"><i
+        	class="fab fa-whatsapp"></i></a>
+		<a target="_blank" href="#" class="w-50">
+			<button  class="btn btn-danger convicity-button w-100" style="font-weight: 500; height: 50px;">CALL NOW</button>
+		</a>
+		<button data-toggle="modal" data-target="#leadmodal" data-backdrop="static" data-keyboard="false" class="btn btn-danger convicity-button w-50 ml-1" style="height: 50px;">LET'S GET STARTED</button>
+	</nav>
+
 	<?php $this->load->view('inc/modal.php') ?>
 	<script src="<?php echo base_url() ?>assets/js/script.js"></script>
 	<script src="<?php echo base_url() ?>assets/js/owl.js"></script>

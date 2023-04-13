@@ -188,7 +188,6 @@ footer .convicity-a {
 .project-catelog-details {
     padding: 0px 0px 10px 0px;
     color: #333131;
-    font-weight: bold;
 }
 
 .inner-banner {
@@ -537,4 +536,115 @@ footer .convicity-a {
     transition: 0.7s;
     background-color: #e83239;
     color: white;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 160px;
+    left: 15px;
+    z-index: 99;
+    background-color: #25d366;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*-moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    animation: effect 4s infinite ease-in;
+}
+
+.whatsapp-mobile-button {
+    position: fixed;
+    bottom: 45%;
+    right: 1px;
+    z-index: 99;
+    background-color: #25d366;
+    border-radius: 8px 0px 0px 8px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*-moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /* animation: effect 4s infinite ease-in; */
+}
+
+.call-button {
+    position: fixed;
+    bottom: 100px;
+    left: 15px;
+    z-index: 99;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*-moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    animation: effect 4s infinite ease-in;
+}
+
+.enquiry-button {
+    position: fixed;
+    bottom: 40px;
+    left: 15px;
+    z-index: 99;
+    background-color: #dc3545;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*-webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*-moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    /*box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);*/
+    animation: effect 4s infinite ease-in;
+}
+
+@keyframes effect {
+
+    20%,
+    100% {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    0%,
+    10% {
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+
+    5% {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
 }
