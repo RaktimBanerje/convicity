@@ -11,14 +11,16 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/lightbox/dist/css/lightbox.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     
 </head>
 <body>
-<div class="container-fluid">
-  <nav class="header navbar navbar-expand-sm navbar-light bg-light fixed-top">
+<div class="container-fluid m-0 p-0">
+  
+  <nav class="header navbar navbar-expand navbar-light p-0 d-none d-md-block" style="background-color: #d8d8d8;">
     <div class="container">
       <div class="page-logo d-none d-sm-block">
         <a class="convicity-logo1" href="<?php echo base_url() ?>">
@@ -26,7 +28,50 @@
           <img src="<?php echo base_url() ?>assets/images/logo2.png" class="img-responsive">
         </a>
       </div>
+      <div class="collapse navbar-collapse topbar" id="topbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="tel:+918777617069">
+              <i class="fa fa-phone" aria-hidden="true" style="font-weight: bold;"></i>  +91 8777617069
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="mailto:info@bloomsburyinfra.in">
+              <i class="fa fa-envelope" aria-hidden="true">  info@bloomsburyinfra.in</i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" target="_blank" href="https://www.facebook.com/convicity">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" target="_blank" href="https://www.youtube.com/watch?v=GSLK2Ozh7AA">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" target="_blank" href="https://api.whatsapp.com/send?phone=916289346024">
+              <i class="fa fa-whatsapp" aria-hidden="true" style="font-weight: bold;"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" target="_blank" href="tel:+918777617069">
+              <i class="fa fa-phone" aria-hidden="true" style="font-weight: bold;"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" target="_blank" href="https://www.facebook.com/convicity" data-toggle="modal" data-target="#enquiry">
+							<i class="fa fa-question" style="font-weight: bold;"></i>
+						</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <nav class="header navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
       <a class="navbar-brand d-sm-none d-block" href="<?php echo base_url() ?>">
         <img src="<?php echo base_url() ?>assets/images/logo1.png" class="img-1 img-responsive" style="margin: 0px 17px; height: 45px;">
       </a>
@@ -35,8 +80,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-
-
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
@@ -67,6 +110,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color: black;" href="<?php echo base_url() ?>careers">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="<?php echo base_url() ?>gallery">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color: black;" href="<?php echo base_url() ?>contact">Contact Us</a>

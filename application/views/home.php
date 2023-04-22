@@ -1,6 +1,5 @@
 <!-- Banner -->
-<section id="banner_clider" style="margin-top: 70px;" class="carousel carousel-dark slide" data-bs-ride="carousel"
-  data-bs-interval="2000" data-bs-hover="false">
+<section id="banner_clider" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-hover="false">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -93,15 +92,13 @@
 
       <div class="col-md-4">
         <div class="card card-body m-0 p-0 rounded project-catelog m-4" style="box-shadow: 0 1rem 3rem #5a5a5a;">
-          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite.jpg" />
           <div class="project-catelog-title-container">
             <h5>ELITE VILLA</h5>
           </div>
           <div class="project-catelog-description-container">
             <h5>Land 3 Katha onwards</h5>
-            <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa
-              comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision
-              for covered car parking, landscape garden, etc.</p>
+            <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision for covered car parking, landscape garden, etc.</p>
           </div>
           <hr>
           <div class="project-catelog-details d-flex">
@@ -120,7 +117,7 @@
 
       <div class="col-md-4">
         <div class="card card-body m-0 p-0 rounded project-catelog m-4" style="box-shadow: 0 1rem 3rem #5a5a5a;">
-          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/classic_villa/1.jpg" />
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite.jpg" />
           <div class="project-catelog-title-container">
             <h5>OAKSIDE APARTMENT</h5>
           </div>
@@ -147,7 +144,7 @@
 
       <div class="col-md-4">
         <div class="card card-body m-0 p-0 rounded project-catelog m-4" style="box-shadow: 0 1rem 3rem #5a5a5a;">
-          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/classic_villa/1.jpg" />
+          <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/classic.jpg" />
           <div class="project-catelog-title-container">
             <h5>CLASSIC VILLA</h5>
           </div>
@@ -182,15 +179,13 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="card card-body m-0 p-0 project-catelog shadow-lg bg-body rounded m-4">
-            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite.jpg" />
             <div class="project-catelog-title-container">
               <h5 style="font-size: 13px;">ELITE VILLA</h5>
             </div>
             <div class="project-catelog-description-container">
               <h5>Land 3 Katha onwards</h5>
-              <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa
-                comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision
-                for covered car parking, landscape garden, etc.</p>
+              <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision for covered car parking, landscape garden, etc.</p>
             </div>
             <hr>
             <div class="project-catelog-details d-flex" style="font-size: 13px;">
@@ -208,52 +203,48 @@
         </div>
         <div class="carousel-item">
           <div class="card card-body m-0 p-0 project-catelog shadow-lg bg-body rounded m-4">
-            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite.jpg" />
             <div class="project-catelog-title-container">
-              <h5 style="font-size: 13px;">ELITE VILLA</h5>
+              <h5 style="font-size: 13px;">OAKSIDE APARTMENT</h5>
             </div>
             <div class="project-catelog-description-container">
-              <h5>Land 3 Katha onwards</h5>
-              <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa
-                comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision
-                for covered car parking, landscape garden, etc.</p>
+              <h5>G+4 Apartment</h5>
+              <p>Oakside Apartment by Convicity offers spacious 2BHK & 3BHK apartments that have been carefully designed by experts for an opulent feel, together with amenities and facilities. It has large size bedrooms, balcony's, provision for covered car parking, etc.</p>
             </div>
             <hr>
             <div class="project-catelog-details d-flex" style="font-size: 13px;">
               <div class="col-4 text-center">
-                <i class="fa fa-bookmark" aria-hidden="true"></i> 2212 sq ft
+                <i class="fa fa-bookmark" aria-hidden="true"></i> 1750 sq ft
               </div>
               <div class="col-4 text-center">
                 <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
               </div>
               <div class="col-4 text-center">
-                <i class="fa fa-bath"></i> 3 Baths
+                <i class="fa fa-bath"></i> 2 Baths
               </div>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="card card-body m-0 p-0 project-catelog shadow-lg bg-body rounded mx-4">
-            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/elite_villa/1.jpg" />
+            <img class="card-img-top" src="<?php echo base_url() ?>assets/images/project/classic.jpg" />
             <div class="project-catelog-title-container">
-              <h5 style="font-size: 13px;">ELITE VILLA</h5>
+              <h5 style="font-size: 13px;">CLASSIC VILLA</h5>
             </div>
             <div class="project-catelog-description-container">
-              <h5>Land 3 Katha onwards</h5>
-              <p>Convicity Villa Elite epitomizes the pinnacle of living. Built on a land area of 3 & 4 Katha, the Villa
-                comes loaded with many features. It has large size bedrooms, open terrace in the first floor, provision
-                for covered car parking, landscape garden, etc.</p>
+              <h5>Land 2 Katha onwards</h5>
+              <p>2 Katha Convicity Villa epitomizes the pinnacle of living.Built on a land area of 1440 sq ft, the Villa comes loaded with many features.It has 3 large size bedrooms,two big terrace in the first floor, provision for covered car parking, garden space, etc.</p>
             </div>
             <hr>
             <div class="project-catelog-details d-flex" style="font-size: 13px;">
               <div class="col-4 text-center">
-                <i class="fa fa-bookmark" aria-hidden="true"></i> 2212 sq ft
+                <i class="fa fa-bookmark" aria-hidden="true"></i> 1265 sq ft
               </div>
               <div class="col-4 text-center">
                 <i class="fa fa-bed" aria-hidden="true"></i> 3 Bedrooms
               </div>
               <div class="col-4 text-center">
-                <i class="fa fa-bath"></i> 3 Baths
+                <i class="fa fa-bath"></i> 2 Baths
               </div>
             </div>
           </div>
@@ -274,8 +265,6 @@
     </div>
     <center><button class="btn btn-danger convicity-button mt-5">VIEW MORE</button></center>
   </div>
-
-  
 </section>
 <!-- End Our Project -->
 

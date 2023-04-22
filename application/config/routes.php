@@ -61,11 +61,19 @@ $route['contact']["GET"] = "ViewController/contact";
 $route['testinomial']["GET"] = "ViewController/testinomial";
 $route['news']["GET"] = "ViewController/news";
 $route['downloads']["GET"] = "ViewController/downloads";
+$route['gallery']["GET"] = "ViewController/gallery";
 
 $route['project/catalog/elite-villa']["GET"] = "ViewController/catelog_elite_villa";
 $route['project/catalog/apartment']["GET"] = "ViewController/catelog_apartment";
 $route['project/catalog/classic-villa']["GET"] = "ViewController/catelog_classic_villa";
 
-$route['project/details/elite-villa']["GET"] = "ViewController/details_elite_villa";
-$route['project/details/apartment']["GET"] = "ViewController/details_apartment";
-$route['project/details/classic-villa']["GET"] = "ViewController/details_classic_villa";
+// Elite Villa
+$route['project/details/elite-villa/3k']["GET"] = "ViewController/details_elite_villa_3k";
+$route['project/details/elite-villa/4k']["GET"] = "ViewController/details_elite_villa_4k";
+// Okside Villa
+$route['project/details/okside-apartment/p3'] = "ViewController/details_okside_apartment_p3";
+$route['project/details/okside-apartment/p28'] = "ViewController/details_okside_apartment_p28";
+// Classic Villa
+$route['project/details/classic-villa/1k']["GET"] = "ViewController/details_classic_villa_1k";
+$route['project/details/classic-villa/2k']["GET"] = "ViewController/details_classic_villa_2k";
+$route['project/details/classic-villa/3k']["GET"] = "ViewController/details_classic_villa_3k";

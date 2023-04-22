@@ -1,10 +1,10 @@
 <!-- Banner -->
 <section>
-	<div class="container-fluid inner-banner"
-		style="background-image: url('<?php echo base_url() ?>assets/images/banners/banner.jpg');">
-		<h1>Corporate</h1>
-	</div>
+    <div class="container-fluid inner-banner d-flex justify-content-center align-items-center" style="height: 160px; background-image: url('<?php echo base_url() ?>assets/images/banners/banner.jpg');">
+        <h1 style="font-size: 40px; color: white; font-weight: bold;">Corporate</h1>
+    </div>
 </section>
+
 
 <section>
 	<div class="container" style="box-shadow: 0px 0px 10px 1px #5c5656;">
