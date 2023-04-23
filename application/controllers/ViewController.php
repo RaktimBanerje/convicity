@@ -106,10 +106,10 @@ class ViewController extends CI_Controller {
 				"elite/3k/2.jpg"
 			],
 			"description" => "Admittedly not for everyone, Villa Elite are the ultimate limited edition living experience. Each villa is unique and captures the spirit of independent living spaces with a blend of floral serenity. With meticulously designed aesthetic exteriors, they are the spaces so vibrant that while you enjoy the best living style, you and your family will create the best moments.",
-			"land_area" => "Land Area : 2880 sq.ft. (with Landscape Garden)",
-			"build_area" => "Built-up Area : 2584 sq.ft.",
-			"ground_floor" => "Ground Floor : 1284 sq.ft.",
-			"first_floor" => "First Floor : 1300 sq.ft.",
+			"land_area_description" => "Land Area : 2880 sq.ft. (with Landscape Garden)",
+			"build_area_description" => "Built-up Area : 2584 sq.ft.",
+			"ground_floor_description" => "Ground Floor : 1284 sq.ft.",
+			"first_floor_description" => "First Floor : 1300 sq.ft.",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -125,9 +125,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "elite/3k/location/location.jpg",
-			"ground_floor" => "elite/3k/location/ground.jpg",
-			"first_floor" => "elite/3k/location/first.jpg" 
+			"location" => "elite/3k/location.jpg",
+			"ground_floor" => "elite/3k/ground.jpg",
+			"first_floor" => "elite/3k/first.jpg" 
 		];
 
 		$this->load->view('inc/header');
@@ -145,10 +145,10 @@ class ViewController extends CI_Controller {
 				"elite/4k/2.jpg"
 			],
 			"description" => "Admittedly not for everyone, Villa Elite are the ultimate limited edition living experience. Each villa is unique and captures the spirit of independent living spaces with a blend of floral serenity. With meticulously designed aesthetic exteriors, they are the spaces so vibrant that while you enjoy the best living style, you and your family will create the best moments.",
-			"land_area" => "Land Area : 2880 sq.ft. (with Landscape Garden)",
-			"build_area" => "Built-up Area : 2584 sq.ft.",
-			"ground_floor" => "Ground Floor : 1284 sq.ft.",
-			"first_floor" => "First Floor : 1300 sq.ft.",
+			"land_area_description" => "Land Area : 2880 sq.ft. (with Landscape Garden)",
+			"build_area_description" => "Built-up Area : 2584 sq.ft.",
+			"ground_floor_description" => "Ground Floor : 1284 sq.ft.",
+			"first_floor_description" => "First Floor : 1300 sq.ft.",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -164,9 +164,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "elite/4k/location/location.jpg",
-			"ground_floor" => "elite/4k/location/ground.jpg",
-			"first_floor" => "elite/4k/location/first.jpg" 
+			"location" => "elite/4k/location.jpg",
+			"ground_floor" => "elite/4k/ground.jpg",
+			"first_floor" => "elite/4k/first.jpg" 
 		];
 
 
@@ -187,10 +187,10 @@ class ViewController extends CI_Controller {
 				"okside/p3/2.jpg"
 			],
 			"description" 	=> "Oakside Apartment by Convicity offers spacious 3BHK apartments that have been carefully designed by experts for an opulent feel, together with amenities and facilities. It has 3 large size bedrooms, two balcony's, provision for covered car parking, etc.",
-			"land_area" 	=> "Land Area : 2160 sq.ft.",
-			"build_area" 	=> "Super Built-up Area : 1750 sq.ft.",
-			"ground_floor" 	=> "Built-up Area : 1400 sq.ft.",
-			"first_floor" 	=> "Car Parking Area : 125 sq.ft.",
+			"land_area_description" 	=> "Land Area : 2160 sq.ft.",
+			"build_area_description" 	=> "Super Built-up Area : 1750 sq.ft.",
+			"ground_floor_description" 	=> "Built-up Area : 1400 sq.ft.",
+			"first_floor_description" 	=> "Car Parking Area : 125 sq.ft.",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -206,9 +206,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "okside/p3/location/location.jpg",
-			"ground_floor" => "okside/p3/location/ground.jpg",
-			"first_floor" => "okside/p3/location/first.jpg" 
+			"location" => "okside/p3/location.jpg",
+			"ground_floor" => "okside/p3/ground.jpg",
+			"first_floor" => "okside/p3/first.jpg" 
 		];
 
 
@@ -226,10 +226,10 @@ class ViewController extends CI_Controller {
 				"okside/p28/2.jpg"
 			],
 			"description" 	=> "Oakside Apartment by Convicity offers spacious 2BHK apartments that have been carefully designed by experts for an opulent feel, together with amenities and facilities. It has 2 large size bedrooms, large balcony, provision for covered car parking, etc.",
-			"land_area" 	=> "Land Area : 1800 sq.ft.",
-			"build_area" 	=> "Super Built-up Area : 1075 sq.ft.",
-			"ground_floor" 	=> "Built-up Area : 860 sq.ft.",
-			"first_floor" 	=> "Car Parking Area : 120 sq.ft.",
+			"land_area_description" 	=> "Land Area : 1800 sq.ft.",
+			"build_area_description" 	=> "Super Built-up Area : 1075 sq.ft.",
+			"ground_floor_description" 	=> "Built-up Area : 860 sq.ft.",
+			"first_floor_description" 	=> "Car Parking Area : 120 sq.ft.",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -245,9 +245,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "okside/p28/location/location.jpg",
-			"ground_floor" => "okside/p28/location/ground.jpg",
-			"first_floor" => "okside/p28/location/first.jpg" 
+			"location" => "okside/p28/location.jpg",
+			"ground_floor" => "okside/p28/ground.jpg",
+			"first_floor" => "okside/p28/first.jpg" 
 		];
 
 
@@ -268,10 +268,10 @@ class ViewController extends CI_Controller {
 				"classic/1k/2.jpg"
 			],
 			"description" 	=> "1.5 Katha Convicity Villa epitomizes the pinnacle of living. Built on a land area of 1080 sq ft —with a built-up area of about 895 sq ft, the Villa comes loaded with many features. It has 2 large size bedrooms + study, open terrace in the first floor, provision for covered car parking, garden space, etc.",
-			"land_area" 	=> "Land Area : 1080 sq.ft.",
-			"build_area" 	=> "Built-up Area : 895 sq.ft.",
-			"ground_floor" 	=> "",
-			"first_floor" 	=> "",
+			"land_area_description" 	=> "Land Area : 1080 sq.ft.",
+			"build_area_description" 	=> "Built-up Area : 895 sq.ft.",
+			"ground_floor_description" 	=> "",
+			"first_floor_description" 	=> "",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -287,9 +287,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "classic/1k/location/location.jpg",
-			"ground_floor" => "classic/1k/location/ground.jpg",
-			"first_floor" => "classic/1k/location/first.jpg" 
+			"location" => "classic/1k/location.jpg",
+			"ground_floor" => "classic/1k/ground.jpg",
+			"first_floor" => "classic/1k/first.jpg" 
 		];
 
 		$this->load->view('inc/header');
@@ -306,10 +306,10 @@ class ViewController extends CI_Controller {
 				"classic/2k/2.jpg"
 			],
 			"description" 	=> "2 Katha Convicity Villa epitomizes the pinnacle of living. Built on a land area of 1440 sq ft —with a built-up area of about 1265 sq ft, the Villa comes loaded with many features. It has 3 large size bedrooms, two big terrace in the first floor, provision for covered car parking, garden space, etc.",
-			"land_area" 	=> "Land Area : 1440 sq.ft.",
-			"build_area" 	=> "Built-up Area : 1265 sq.ft.",
-			"ground_floor" 	=> "",
-			"first_floor" 	=> "",
+			"land_area_description" 	=> "Land Area : 1440 sq.ft.",
+			"build_area_description" 	=> "Built-up Area : 1265 sq.ft.",
+			"ground_floor_description" 	=> "",
+			"first_floor_description" 	=> "",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -325,9 +325,9 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "classic/2k/location/location.jpg",
-			"ground_floor" => "classic/2k/location/ground.jpg",
-			"first_floor" => "classic/2k/location/first.jpg" 
+			"location" => "classic/2k/location.jpg",
+			"ground_floor" => "classic/2k/ground.jpg",
+			"first_floor" => "classic/2k/first.jpg" 
 		];
 
 
@@ -345,10 +345,10 @@ class ViewController extends CI_Controller {
 				"classic/3k/2.jpg"
 			],
 			"description" 	=> "3 Katha Convicity Villa epitomizes the pinnacle of living. Built on a land area of 2160 sq ft —with a built-up area of about 1872 sq ft, the Villa comes loaded with many features. It has 4 large size bedrooms, two big terrace in the first floor, provision for covered car parking, garden space, etc.",
-			"land_area" 	=> "Land Area : 2160 sq.ft.",
-			"build_area" 	=> "Built-up Area : 1872 sq.ft.",
-			"ground_floor" 	=> "",
-			"first_floor" 	=> "",
+			"land_area_description" 	=> "Land Area : 2160 sq.ft.",
+			"build_area_description" 	=> "Built-up Area : 1872 sq.ft.",
+			"ground_floor_description" 	=> "",
+			"first_floor_description" 	=> "",
 			"specification" => [
 				["icon" => "12.png", "heading" => "DOOR FRAMES AND SHUTTERS", 	"detail" => "Frame - Shal Wood, Shutter - Flush door, Hardware - Lock, Docorative Handle/Knob."],
 				["icon" => "11.png", "heading" => "TOILETS", 					"detail" => "Floor: Vitrified Tile - Anti Skid, Interior: Tiles Dado, Bathroom Doors: Frame - Pvc, Shutter - Designer Pvc Door, Sanitary Fittings: Chinaware - White/Ivory, SS Fittings."],
@@ -364,12 +364,10 @@ class ViewController extends CI_Controller {
 				["icon" => "15.png", "heading" => "AC POINT", 					"detail" => "Provision for AC point in all Bedrooms."],
 				["icon" => "21.png", "heading" => "FOUNDATION", 				"detail" => "RCC Frame with cement mortar."],
 			],
-			"location" => "classic/3k/location/location.jpg",
-			"ground_floor" => "classic/3k/location/ground.jpg",
-			"first_floor" => "classic/3k/location/first.jpg" 
+			"location" => "classic/3k/location.jpg",
+			"ground_floor" => "classic/3k/ground.jpg",
+			"first_floor" => "classic/3k/first.jpg" 
 		];
-
-
 
 		$this->load->view('inc/header');
 		$this->load->view('project_details', $data);

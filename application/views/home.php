@@ -84,7 +84,7 @@
 <!-- End About Us -->
 
 <!-- Start Our Project -->
-<section class="convicity-container-2" style="background-color: #cbcbcb;">
+<section class="convicity-container-2" style="background-color: #F1F1F1;">
   <div class="container d-none d-md-block">
     <h3 class="text-center">OUR <strong>PROJECT</strong></h3>
 
@@ -282,18 +282,55 @@
 <!-- End Who We Are -->
 
 <!-- Start Testinomial and Events -->
-<!-- <section class="convicity-container-2">
+<section class="convicity-container-2">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
         <h4>TESTINOMIALS</h4>
+        <div id="testinomialSlider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row" style="margin-top: 55px;">
+                <div class="col-12 mb-4">
+                  <div class="text-center p-4 mb-5 bg-body rounded">
+                      <img src="<?php echo base_url() ?>assets/images/icons/male.jpg" style="border-radius: 100px; height: 100px; width: 100px; margin-top: -65px; border: 10px solid white;" />
+                      <h5 class="text-start"><i class="fa fa-quote-left" aria-hidden="true"></i></h5>
+                      <p class="mt-2" style="font-size: 14px;">Ongoing project at the outskirt of the city! My future destination! Hope to have a cleaner air there. I'm really pissed off the pollution of Kolkata & Indifference of Govt about it!</p>
+                      <p class="text-center mt-2" style="font-size: 17px; font-weight: bold;">ABHIJIT DEY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row" style="margin-top: 55px;">
+                <div class="col-12 mb-4">
+                  <div class="text-center p-4 mb-5 bg-body rounded">
+                      <img src="<?php echo base_url() ?>assets/images/icons/male.jpg" style="border-radius: 100px; height: 100px; width: 100px; margin-top: -65px; border: 10px solid white;" />
+                      <h5 class="text-start"><i class="fa fa-quote-left" aria-hidden="true"></i></h5>
+                      <p class="mt-2" style="font-size: 14px;">It's a amazing bungalow project from Bloomsbury Convicity project.it is genius company..I have already booked 2bhk villa.</p>
+                      <p class="text-center mt-2" style="font-size: 17px; font-weight: bold;">NATIONAL SMALL INDUSTRIES CORP. LTD. NSIC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#testinomialSlider" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#testinomialSlider" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-2"></div>
+      <div class="col-md-5">
         <h4>NEWS & EVENTS</h4>
       </div>
     </div>
   </div>
-</section> -->
+</section>
 <!-- End Testinomial and Events -->
 
 <!-- Start Convicity Video -->

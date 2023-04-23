@@ -183,12 +183,12 @@ footer .convicity-a {
     transition: 0.2s;
 }
 .convicity-container-1 {
-    padding: 30px 0px;
+    padding: 30px 10px;
     background-color: white;
 }
 
 .convicity-container-2 {
-    padding: 30px 0px;
+    padding: 30px 10px;
     background-color: rgb(241,241,241);
 }
 .content {
@@ -633,7 +633,7 @@ footer .convicity-a {
     right: 1px;
     z-index: 99;
     background-color: #25d366;
-    border-radius: 8px 0px 0px 8px;
+    /* border-radius: 8px 22px 0px 8px; */
     color: #ffffff;
     text-decoration: none;
     width: 50px;
@@ -700,6 +700,8 @@ footer .convicity-a {
 .wc-facebook{
     background:#3b5998;
     border:solid 1px #3b5998;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-facebook:hover i{
     color:#3b5998;
@@ -707,20 +709,27 @@ footer .convicity-a {
 .wc-whatsapp{
     background:#25d366;
     border:solid 1px #25d366;
+    padding: 8px 0px;
+    width: 20%;
+    
 }
 .wc-whatsapp:hover i{
     color:#25d366;
 }	
 .wc-call{
-    background:#25d366;
-    border:solid 1px #25d366;
+    background:#00aced;
+    border:solid 1px #00aced;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-call:hover i{
-    color:#25d366;
+    color:#00aced;
 }	
 .wc-twitter{
     background:#00aced;
     border:solid 1px #00aced;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-twitter:hover i{
     color:#00aced;
@@ -728,6 +737,8 @@ footer .convicity-a {
 .wc-linkedin{
     background:#0177b5;
     border:solid 1px #0177b5;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-linkedin:hover i{
     color:#0177b5;
@@ -735,6 +746,8 @@ footer .convicity-a {
 .wc-youtube{
     background:#e22c29;
     border:solid 1px #e22c29;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-youtube:hover i{
     color:#e22c29;
@@ -743,6 +756,8 @@ footer .convicity-a {
 .wc-pinterest{
     background:#e22c29;
     border:solid 1px #e22c29;
+    padding: 8px 0px;
+    width: 20%;
 }
 .wc-pinterest:hover i{
     color:#e22c29;
@@ -769,5 +784,16 @@ footer .convicity-a {
         width: 50px;
         height: 50px;
         font-size: 30px;
+    }
+}
+
+/* Small evices (landscape phones, 576px and up) */
+@media (min-width: 992px) {
+    .convicity-container-1 {
+        padding: 30px 10px;
+    }
+    
+    .convicity-container-2 {
+        padding: 30px 10px;
     }
 }
